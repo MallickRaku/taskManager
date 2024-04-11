@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  gap: 30px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 20px silver;
+  filter: brightness(1.01);
+}
+
+i {
+  position: absolute;
+  right: 5%;
+  top: 8%;
+  width: fit-content;
+  color: #adb5bd;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 14px;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+h4 {
+  padding: 10px 0px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 8px 0px;
+}
+li {
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #c6e8fb;
+  color: #0e89cb;
+}
+
+img {
+  width: 20px;
+}
+span {
+  text-align: center;
+  color: #828282;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background-color: #637fe1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.displayFlex {
+  display: flex;
+  gap: 2%;
+}

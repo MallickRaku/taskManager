@@ -1,0 +1,329 @@
+.sidebar {
+  flex-basis: 25%;
+  /* border: 1px solid black; */
+}
+.main {
+  flex-basis: 75%;
+  /* border: 1px solid black; */
+}
+
+textarea {
+  margin: 10px 0px;
+  padding: 20px 15px;
+  resize: none;
+  border-radius: 5px;
+  border: 1.5px solid rgb(101, 157, 217);
+  outline: 0;
+  font-family: serif;
+  transition: 0.2 ease-in-out;
+  box-shadow: 0px 1px 6px #2f80ed;
+}
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* textarea:hover {
+  box-shadow: 0px 1px 6px #2f80ed;
+} */
+.tag {
+  align-items: center;
+  display: flex;
+}
+.tag ul {
+  flex-basis: 80%;
+}
+.tag i,
+.addOther i {
+  position: static;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.tag i:last-child,
+.addOther i:last-child {
+  padding: 10px;
+  font-size: 10px;
+  border: 3px dotted;
+  border-radius: 50%;
+}
+
+.addOther {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  margin: 10px 0px;
+  border-top: 1.5px solid gainsboro;
+}
+.addOther .addUserInfo {
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.addOther img {
+  width: 40px;
+}
+
+.task h5 {
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #c6e8fb;
+  color: #0e89cb;
+}
+.task p {
+  padding: 10px 0px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.task .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.task .info .taskInfo {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+}
+
+.task .info .taskInfo i {
+  position: static;
+  padding-right: 8px;
+}
+
+.task .info .taskUser img {
+  cursor: pointer;
+}
+
+/* nav */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.navbar div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar div img {
+  width: 45px;
+}
+
+.logoName {
+  color: #4895ef;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.searchBox {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: #cce0eb;
+}
+
+.searchBox i {
+  position: absolute;
+  color: black;
+  top: 18px;
+  left: 23px;
+}
+.searchBox input {
+  width: 225px;
+  background: transparent;
+  padding: 5px 35px;
+  border: 0;
+  outline: 0;
+}
+
+.navbar .menu {
+  gap: 20px;
+}
+.navbar .menu a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .menu a:hover {
+  color: #0e89cb;
+}
+.profileBox {
+  margin-right: 20px;
+}
+.profileBox i {
+  position: static;
+  font-size: 20px;
+}
+.profileBox .profile {
+  padding: 0px 20px;
+}
+.profileBox .profile span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.profileBox .profile img {
+  width: 30px;
+}
+
+/* ... */
+.taskReports {
+  flex-basis: 35%;
+}
+
+.dueDate {
+  font-size: 12px;
+  color: #828282;
+  padding: 5px 0px;
+}
+.dueDate i {
+  position: static;
+  padding-right: 15px;
+}
+.taskReports .desc {
+  font-size: 13px;
+  padding: 10px 0px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.projectProgressBox,
+.taskProgressBox {
+  position: relative;
+  margin-top: 12px;
+}
+
+.projectProgressBox span,
+.taskProgressBox span {
+  position: absolute;
+  font-weight: bold;
+  top: 20%;
+  right: 5%;
+  font-size: 15px;
+}
+.progressBar {
+  width: 100%;
+  height: 6px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progressBar .progress {
+  width: 45%;
+  height: 100%;
+  background-color: #0e89cb;
+}
+
+.includedMember {
+  padding: 10px 0px;
+}
+.includedMember img {
+  width: 40px;
+}
+/* weekly progress */
+
+.weeklyProgress {
+  flex-basis: 30%;
+}
+
+.startDate {
+  font-size: 12px;
+  color: #828282;
+  padding: 5px 0px;
+}
+
+.progressContainer {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/*  */
+
+.taskProgress {
+  width: 28%;
+}
+
+/* task assignment */
+
+.TaskAssignComponent {
+  flex-basis: 35%;
+}
+.searchResult {
+  margin-top: 20px;
+}
+.assignTask i:first-child {
+  position: static;
+}
+.assignTask span {
+  padding: 0px 25px;
+}
+.assignTask i:last-child {
+  top: 20px;
+}
+
+.searchedUser {
+  padding: 10px 20px;
+  margin-top: 15px;
+  transform: translateX(-5%);
+  width: 111%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.searchedUser:hover {
+  background-color: #bbe2f7;
+  border-left: 4px solid blue;
+}
+.userdetail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userdetail img {
+  width: 40px;
+}
+.userdetail span {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* recentActivity */
+
+.recentActivity {
+  flex-basis: 60%;
+}
+.activity {
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.activity img {
+  width: 35px;
+}
+.activity .activityInfo p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.activity .activityInfo p span {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
